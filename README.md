@@ -22,19 +22,19 @@
 
 <table>
   <tr>
-    <td align="center"><img src="public/images/portfolio/intro.png" alt="Intro Section" width="250"/><br/><b>Intro Section</b></td>
-    <td align="center"><img src="public/images/portfolio/about.png" alt="About Section" width="250"/><br/><b>About Section</b></td>
-    <td align="center"><img src="public/images/portfolio/experience.png" alt="Experience Section" width="250"/><br/><b>Experience Section</b></td>
+    <td align="center"><img src="public/images/intro.png" alt="Intro Section" width="250"/><br/><b>Intro Section</b></td>
+    <td align="center"><img src="public/images/about.png" alt="About Section" width="250"/><br/><b>About Section</b></td>
+    <td align="center"><img src="public/images/experience.png" alt="Experience Section" width="250"/><br/><b>Experience Section</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="public/images/portfolio/projects1.png" alt="Projects Section 1" width="250"/><br/><b>Projects Section 1</b></td>
-    <td align="center"><img src="public/images/portfolio/projects2.png" alt="Projects Section 2" width="250"/><br/><b>Projects Section 2</b></td>
-    <td align="center"><img src="public/images/portfolio/minorprojects.png" alt="Minor Projects Section" width="250"/><br/><b>Minor Projects</b></td>
+    <td align="center"><img src="public/images/projects1.png" alt="Projects Section 1" width="250"/><br/><b>Projects Section 1</b></td>
+    <td align="center"><img src="public/images/projects2.png" alt="Projects Section 2" width="250"/><br/><b>Projects Section 2</b></td>
+    <td align="center"><img src="public/images/minorprojects.png" alt="Minor Projects Section" width="250"/><br/><b>Minor Projects</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="public/images/portfolio/skills1.png" alt="Skills Section 1" width="250"/><br/><b>Skills Section 1</b></td>
-    <td align="center"><img src="public/images/portfolio/skills2.png" alt="Skills Section 2" width="250"/><br/><b>Skills Section 2</b></td>
-    <td align="center"><img src="public/images/portfolio/contact.png" alt="Contact Section" width="250"/><br/><b>Contact Section</b></td>
+    <td align="center"><img src="public/images/skills1.png" alt="Skills Section 1" width="250"/><br/><b>Skills Section 1</b></td>
+    <td align="center"><img src="public/images/skills2.png" alt="Skills Section 2" width="250"/><br/><b>Skills Section 2</b></td>
+    <td align="center"><img src="public/images/contact.png" alt="Contact Section" width="250"/><br/><b>Contact Section</b></td>
   </tr>
 </table>
 
