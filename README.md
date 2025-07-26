@@ -1,114 +1,229 @@
-<div align="center">
-  <br />
-    <a href="" target="_blank">
-      <img src="public/images/readme.png" alt="Project Banner">
-    </a>
-  <br />
+# 🚀 3D Portfolio - Sumit Kumar Chaturvedi
 
+<div align="center">
+  <img src="public/images/readme.png" alt="3D Portfolio Banner" width="800"/>
+  
+  <br/>
+  
   <div>
+    <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
     <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
     <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
   </div>
-
+  
   <h3 align="center">Interactive 3D Portfolio Website</h3>
-
-   
+  <p align="center">A modern, responsive portfolio showcasing full-stack development skills with immersive 3D experiences</p>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 🖼️ Portfolio Gallery
+<div align="center">
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets & Snippets](#links)
-6. 🚀 [More](#more)
+<table>
+  <tr>
+    <td align="center"><img src="public/images/portfolio/intro.png" alt="Intro Section" width="250"/><br/><b>Intro Section</b></td>
+    <td align="center"><img src="public/images/portfolio/about.png" alt="About Section" width="250"/><br/><b>About Section</b></td>
+    <td align="center"><img src="public/images/portfolio/experience.png" alt="Experience Section" width="250"/><br/><b>Experience Section</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="public/images/portfolio/projects1.png" alt="Projects Section 1" width="250"/><br/><b>Projects Section 1</b></td>
+    <td align="center"><img src="public/images/portfolio/projects2.png" alt="Projects Section 2" width="250"/><br/><b>Projects Section 2</b></td>
+    <td align="center"><img src="public/images/portfolio/minorprojects.png" alt="Minor Projects Section" width="250"/><br/><b>Minor Projects</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="public/images/portfolio/skills1.png" alt="Skills Section 1" width="250"/><br/><b>Skills Section 1</b></td>
+    <td align="center"><img src="public/images/portfolio/skills2.png" alt="Skills Section 2" width="250"/><br/><b>Skills Section 2</b></td>
+    <td align="center"><img src="public/images/portfolio/contact.png" alt="Contact Section" width="250"/><br/><b>Contact Section</b></td>
+  </tr>
+</table>
 
+</div>
+## 📋 Table of Contents
 
+- [✨ Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚀 Live Demo](#-live-demo)
+- [📦 Installation](#-installation)
+- [🎯 Project Structure](#-project-structure)
+- [🌟 Key Projects](#-key-projects)
+- [💼 Experience](#-experience)
+- [🛠️ Skills](#️-skills)
+- [📞 Contact](#-contact)
 
-## <a name="introduction">🤖 Introduction</a>
+## ✨ Features
 
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+- **🎨 Immersive 3D Experience**: Interactive 3D models and animations using Three.js and React Three Fiber
+- **📱 Fully Responsive**: Optimized for all devices with mobile-first design
+- **⚡ Smooth Animations**: GSAP-powered scroll animations and micro-interactions
+- **🎯 Project Showcase**: Dynamic project carousel with multiple screenshots
+- **📊 Interactive Elements**: Animated counters, tilt effects, and hover animations
+- **📧 Contact Integration**: EmailJS-powered contact form
+- **🌙 Modern Design**: Dark theme with gradient effects and glass morphism
+- **⚙️ Performance Optimized**: Vite build system for fast development and production
 
+## 🛠️ Tech Stack
 
+### Frontend
+- **React 19** - Modern React with latest features
+- **Three.js** - 3D graphics and animations
+- **React Three Fiber** - React renderer for Three.js
+- **GSAP** - Professional-grade animations
+- **Tailwind CSS** - Utility-first CSS framework
+- **Vite** - Fast build tool and dev server
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+### 3D & Graphics
+- **@react-three/drei** - Useful helpers for React Three Fiber
+- **@react-three/postprocessing** - Post-processing effects
+- **Three.js GLB Models** - Optimized 3D assets
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
-- React 19
+### Development Tools
+- **ESLint** - Code linting and formatting
+- **TypeScript** - Type safety and better development experience
 
-## <a name="features">🔋 Features</a>
+## 🚀 Live Demo
 
-### Features of the 3D Portfolio Project
+[View Live Portfolio](https://your-portfolio-url.com) *(Replace with actual deployment URL)*
 
-👉 Animated 3D models and reveal animations
+## 📦 Installation
 
-👉 Realistic lighting and shadows
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-👉 GSAP-powered scroll interactions
+### Setup Instructions
 
-👉 Responsive design with Tailwind CSS and Flexbox/Grid
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/3d-portfolio.git
+   cd 3d-portfolio
+   ```
 
-👉 Micro Interactions
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-👉 Multi-section layout (About, Projects, Contact)
+3. **Set up environment variables**
+   Create a `.env` file in the root directory:
+   ```env
+   VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+   VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+   VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+   ```
 
-👉 Mobile optimized 3D experience
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
 
-and many more, including code architecture and reusability.
+5. **Open your browser**
+   Navigate to `http://localhost:5173`
 
-## <a name="quick-start">🤸 Quick Start</a>
+## 🎯 Project Structure
 
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/3d-portfolio.git
-cd 3d-portfolio
+```
+src/
+├── components/          # Reusable UI components
+│   ├── models/         # 3D model components
+│   ├── AnimatedCounter.jsx
+│   ├── Button.jsx
+│   ├── NavBar.jsx
+│   └── TitleHeader.jsx
+├── sections/           # Main page sections
+│   ├── Hero.jsx       # Landing section with 3D models
+│   ├── ShowcaseSection.jsx  # Featured projects
+│   ├── Experience.jsx # Work experience
+│   ├── TechStack.jsx  # Skills and technologies
+│   ├── Contact.jsx    # Contact form
+│   └── Footer.jsx     # Footer section
+├── constants/          # Data and configuration
+└── index.css          # Global styles
 ```
 
-**Installation**
+## 🌟 Key Projects
 
-Install the project dependencies using npm:
+### 🛣️ Route Optimization System
+- **Description**: Advanced route optimization platform with real-time traffic analysis
+- **Tech Stack**: React, Node.js, MongoDB, Express
+- **Features**: Dynamic routing, traffic integration, user management
 
-```bash
-npm install
-```
+### 💡 LUMINA - Social Platform
+- **Description**: Full-featured social media platform with real-time interactions
+- **Tech Stack**: React, Node.js, WebSockets, MongoDB
+- **Features**: User authentication, real-time messaging, profile management
 
-**Set Up Environment Variables**
+### 🧠 SAGE - AI-Powered System
+- **Description**: Intelligent system with AI-driven features and analytics
+- **Tech Stack**: React, Python, Machine Learning APIs
+- **Features**: AI integration, data visualization, predictive analytics
 
-Create a new file named `.env` in the root of your project and add the following content:
+### 🏥 Healthcare Management System
+- **Description**: Comprehensive patient management application
+- **Tech Stack**: Next.js, TypeScript, Appwrite, Twilio
+- **Features**: Appointment booking, SMS notifications, file management
 
-```env
-VITE_APP_EMAILJS_SERVICE_ID=
-VITE_APP_EMAILJS_TEMPLATE_ID=
-VITE_APP_EMAILJS_PUBLIC_KEY=
-```
+### 🍽️ Food Waste Reduction Platform
+- **Description**: Web-based platform connecting food providers with charities
+- **Tech Stack**: Django, Python, HTML, CSS
+- **Features**: User authentication, donation management, real-time updates
 
-Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
+## 💼 Experience
 
-**Running the Project**
+### Technical Member – IET Club, NITK
+*December 2022 - Present*
+- Maintained club websites with responsive design
+- Mentored Financial Diversity Portfolio project using Python and data visualization
+- Contributed to Fintech Portfolio with Monte Carlo Simulations
+- Built Food Waste Reduction Platform using React and Firebase
 
-```bash
-npm run dev
-```
+### Open Source Contributor – SW360 (GSoC Participation)
+*January 2025 - April 2025*
+- Contributed features and bug fixes to SW360 open-source project
+- Utilized JavaScript, REST APIs, and Git for development
+- Collaborated with open-source community
 
-Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
+### Web & Design Developer – Incident Cultural Fest, NITK
+*January 2025 - March 2025*
+- Built and deployed official fest website using React.js and Tailwind CSS
+- Designed promotional graphics and posters
+- Implemented responsive registration system for 1000+ users
+
+## 🛠️ Skills
+
+### Languages & Tools
+- **C++**, **Python**, **JavaScript**, **TypeScript**
+- **Git**, **Postman**
+
+### Frontend Development
+- **HTML5**, **CSS3**, **Tailwind CSS**, **Bootstrap**
+- **React**, **Next.js**, **jQuery**
+- **Figma**, **UI/UX Design**, **Responsive Design**
+
+### Backend & APIs
+- **Node.js**, **Express**, **REST APIs**, **WebSockets**
+
+### Databases & DevOps
+- **MongoDB**, **MySQL**, **PostgreSQL**, **Redis**
+- **AWS**, **Docker**, **Kubernetes**
+
+### Computer Science Fundamentals
+- **Data Structures & Algorithms**, **Object-Oriented Programming**
+- **Operating Systems**, **Database Management Systems**
+- **Computer Networks**, **System Design**, **Microservices**
+
+## 📞 Contact
+
+- **LinkedIn**: [Sumit Kumar Chaturvedi](https://linkedin.com/in/your-profile)
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Portfolio**: [Live Website](https://your-portfolio-url.com)
+
+---
+
+<div align="center">
+  <p>⭐ Star this repository if you found it helpful!</p>
+  <p>Made with ❤️ by Sumit Kumar Chaturvedi</p>
+</div>
 
 
 
