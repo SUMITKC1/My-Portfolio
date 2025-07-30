@@ -85,44 +85,6 @@
 ## 🚀 Live Demo
 
 [View Live Portfolio](https://your-portfolio-url.com) *(Replace with actual deployment URL)*
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🚀 Live Demo](#-live-demo)
-- [📦 Installation](#-installation)
-- [🎯 Project Structure](#-project-structure)
-- [🌟 Key Projects](#-key-projects)
-- [🛠️ Skills](#️-skills)
-- [📞 Contact](#-contact)
-
-## ✨ Features
-
-- **🎨 Immersive 3D Experience**: Interactive 3D models and animations using Three.js and React Three Fiber
-- **📱 Fully Responsive**: Optimized for all devices with mobile-first design
-- **⚡ Smooth Animations**: GSAP-powered scroll animations and micro-interactions
-- **🎯 Project Showcase**: Dynamic project carousel with multiple screenshots
-- **📊 Interactive Elements**: Animated counters, tilt effects, and hover animations
-- **📧 Contact Integration**: EmailJS-powered contact form
-- **🌙 Modern Design**: Dark theme with gradient effects and glass morphism
-- **⚙️ Performance Optimized**: Vite build system for fast development and production
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **React 19** - Modern React with latest features
-- **Three.js** - 3D graphics and animations
-- **React Three Fiber** - React renderer for Three.js
-- **GSAP** - Professional-grade animations
-- **Tailwind CSS** - Utility-first CSS framework
-- **Vite** - Fast build tool and dev server
-
-### 3D & Graphics
-- **@react-three/drei** - Useful helpers for React Three Fiber
-- **@react-three/postprocessing** - Post-processing effects
-- **Three.js GLB Models** - Optimized 3D assets
-
-### Development Tools
-- **ESLint** - Code linting and formatting
-- **TypeScript** - Type safety and better development experience
->>>>>>> ae2ce8961a25a0d8c36461178eaf4478845c26c4
 
 ## 📦 Installation
 
@@ -134,8 +96,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/3d-portfolio.git
-   cd 3d-portfolio
+   git clone https://github.com/SUMITKC1/My-Portfolio.git
+   cd My-Portfolio
    ```
 
 2. **Install dependencies**
@@ -206,7 +168,6 @@ src/
 - **Description**: Web-based platform connecting food providers with charities
 - **Tech Stack**: Django, Python, HTML, CSS
 - **Features**: User authentication, donation management, real-time updates
-<<<<<<< HEAD
 
 ## 💼 Experience
 
@@ -228,24 +189,6 @@ src/
 - Built and deployed official fest website using React.js and Tailwind CSS
 - Designed promotional graphics and posters
 - Implemented responsive registration system for 1000+ users
-=======
->>>>>>> ae2ce8961a25a0d8c36461178eaf4478845c26c4
-
-## 🛠️ Skills
-
-<<<<<<< HEAD
-### Languages & Tools
-- **C++**, **Python**, **JavaScript**, **TypeScript**
-- **Git**, **Postman**
-
-### Frontend Development
-- **HTML5**, **CSS3**, **Tailwind CSS**, **Bootstrap**
-- **React**, **Next.js**, **jQuery**
-- **Figma**, **UI/UX Design**, **Responsive Design**
-
-### Backend & APIs
-- **Node.js**, **Express**, **REST APIs**, **WebSockets**
-=======
 
 ## 🛠️ Skills
 
@@ -272,9 +215,8 @@ src/
 
 ## 📞 Contact
 
-- **LinkedIn**: [Sumit Kumar Chaturvedi](www.linkedin.com/in/sumit-chaturvedi-3a8801285)
+- **LinkedIn**: [Sumit Kumar Chaturvedi](https://www.linkedin.com/in/sumit-chaturvedi-3a8801285)
 - **Email**: [sumitkc.221mn052@nitk.edu.in](mailto:sumitkc.221mn052@nitk.edu.in)
-  
 
 ---
 
@@ -282,54 +224,3 @@ src/
   <p>⭐ Star this repository if you found it helpful!</p>
   <p>Made with ❤️ by Sumit Kumar Chaturvedi</p>
 </div>
->>>>>>> ae2ce8961a25a0d8c36461178eaf4478845c26c4
-
-### Databases & DevOps
-- **MongoDB**, **MySQL**, **PostgreSQL**, **Redis**
-- **AWS**, **Docker**, **Kubernetes**
-
-<<<<<<< HEAD
-### Computer Science Fundamentals
-- **Data Structures & Algorithms**, **Object-Oriented Programming**
-- **Operating Systems**, **Database Management Systems**
-- **Computer Networks**, **System Design**, **Microservices**
-
-## 📞 Contact
-
-- **LinkedIn**: [Sumit Kumar Chaturvedi](https://linkedin.com/in/your-profile)
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **Portfolio**: [Live Website](https://your-portfolio-url.com)
-
----
-
-<div align="center">
-  <p>⭐ Star this repository if you found it helpful!</p>
-  <p>Made with ❤️ by Sumit Kumar Chaturvedi</p>
-</div>
-
-## 🖼️ Portfolio Gallery
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center"><img src="public/images/portfolio/intro.png" alt="Intro Section" width="250"/><br/><b>Intro Section</b></td>
-    <td align="center"><img src="public/images/portfolio/about.png" alt="About Section" width="250"/><br/><b>About Section</b></td>
-    <td align="center"><img src="public/images/portfolio/experience.png" alt="Experience Section" width="250"/><br/><b>Experience Section</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="public/images/portfolio/projects1.png" alt="Projects Section 1" width="250"/><br/><b>Projects Section 1</b></td>
-    <td align="center"><img src="public/images/portfolio/projects2.png" alt="Projects Section 2" width="250"/><br/><b>Projects Section 2</b></td>
-    <td align="center"><img src="public/images/portfolio/minorprojects.png" alt="Minor Projects Section" width="250"/><br/><b>Minor Projects</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="public/images/portfolio/skills1.png" alt="Skills Section 1" width="250"/><br/><b>Skills Section 1</b></td>
-    <td align="center"><img src="public/images/portfolio/skills2.png" alt="Skills Section 2" width="250"/><br/><b>Skills Section 2</b></td>
-    <td align="center"><img src="public/images/portfolio/contact.png" alt="Contact Section" width="250"/><br/><b>Contact Section</b></td>
-  </tr>
-</table>
-
-</div>
-=======
-
->>>>>>> ae2ce8961a25a0d8c36461178eaf4478845c26c4
