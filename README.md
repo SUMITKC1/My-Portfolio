@@ -1,10 +1,6 @@
 # 🚀 3D Portfolio - Sumit Kumar Chaturvedi
 
 <div align="center">
-  <img src="public/images/readme.png" alt="3D Portfolio Banner" width="800"/>
-  
-  <br/>
-  
   <div>
     <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
     <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
